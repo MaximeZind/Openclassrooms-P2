@@ -470,7 +470,7 @@ footer{
 
 
 
-/*** en dessous de 1130 px ****/
+/*** en dessous de 992 px ****/
 
 @media screen and (max-width: 992px){
 
@@ -520,6 +520,8 @@ footer{
     }
     
 }
+
+/*** en dessous de 768 px ****/
 
 @media screen and (max-width: 767px){
 
