@@ -5,7 +5,7 @@ html{
 }
 
 body{
-    margin: 0px 10px 0px 10px;
+    margin: 0px 40px 0px 40px;
     font-family: 'Raleway', 'sans-serif';
 }
 
@@ -470,9 +470,9 @@ footer{
 
 
 
-/*** en dessous de 992 px ****/
+/*** en dessous de 992 px - Tablettes ****/
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 991px){
 
     .offers{
         flex-direction: column;
@@ -521,7 +521,7 @@ footer{
     
 }
 
-/*** en dessous de 768 px ****/
+/*** en dessous de 768 px - Mobiles ****/
 
 @media screen and (max-width: 767px){
 
@@ -563,11 +563,11 @@ footer{
     .navlist li{
         padding-bottom: 23px;
         text-align: center;
-        border-bottom: #F2F2F2 solid 2px;
+        border-bottom: #F2F2F2 solid 3px;
     }
 
     .navlist li:first-of-type{
-        border-bottom: #0065FC solid 2px;
+        border-bottom: #0065FC solid 3px;
     }
 
     .navlist li:first-of-type a{
@@ -577,7 +577,7 @@ footer{
 
     nav ul li:hover{
         padding-top: 50px;
-        border-bottom: #0065FC solid 2px;
+        border-bottom: #0065FC solid 3px;
         border-top: none;
         padding-bottom: 21px;
     }
@@ -610,15 +610,15 @@ footer{
 
     .filters{
         width: 100%;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 1fr 1fr;
         gap: 14px;
+        justify-content: center;
     }
 
     .filter{
         margin: 0px;
         justify-content: center;
+        width: 30%;
+        min-width: 120px;
     }
 
     .filter p{
@@ -661,18 +661,4 @@ footer{
     footer{
         flex-direction: column;
     }
-}
-
-@media screen and (max-width: 380px){
-
-    .filters{
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(4, 1fr);
-    }
-
-    .filter {
-        justify-content: center;
-    }
-
-
 }
