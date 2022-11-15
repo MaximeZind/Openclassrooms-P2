@@ -2,6 +2,7 @@
 
 html{
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 body{
@@ -616,9 +617,12 @@ footer{
 
     .filter{
         margin: 0px;
-        justify-content: center;
-        width: 30%;
-        min-width: 120px;
+        width: 120px;
+    }
+
+    .filtericon{
+        min-width: 22.5px;
+        text-align: center;
     }
 
     .filter p{
