@@ -52,16 +52,14 @@ h4{
 
 /******* HEADER *******/
 
-header{
+.head{
     display: flex;
     justify-content: space-between;
 }
 
 .logo{
     margin-top: 55px;
-}
-.logo img{
-width: 61px;
+    width: 61px;
 }
 
 nav ul{
@@ -335,7 +333,7 @@ nav ul li:hover{
 
 /***** Les plus populaires *****/
 
-aside{
+.popular{
     width: 31%;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -485,7 +483,7 @@ footer{
         box-sizing: border-box;
     }
 
-    aside{
+    .popular{
         width: 100%;
         box-sizing: border-box;
     }
@@ -546,7 +544,7 @@ footer{
         margin: 0px;
     }
 
-    header{
+    .head{
         flex-direction: column;
     }
 
